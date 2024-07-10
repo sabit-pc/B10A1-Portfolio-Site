@@ -238,7 +238,7 @@ body {
     margin-bottom: 24px;
 }
 
-.inspiration-container p {
+.inspiration-container .inspiration-description {
     font-size: 16px;
     font-weight: 400;
     text-align: center;
@@ -252,4 +252,101 @@ body {
     border-radius: 16px;
 }
 
+/* target section */
+.target {
+    width: 1140px;
+    max-width: 1440px;
+    height: 463px;
+    margin: 60px 150px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.target-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.target-container h3 {
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    color: rgb(13, 19, 33);
+    margin-bottom: 24px;
+}
+
+.target-container p {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(13, 19, 33);
+    margin-bottom: 48px;
+}
+
+.target-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+
+.target-card .target-card-template-1,
+.target-card .target-card-template-2,
+.target-card .target-card-template-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 364px;
+    height: 300px;
+    padding: 40px;
+    border: none;
+    border-radius: 16px;
+    background-color: rgba(255, 76, 30, 0.05);
+    gap: 24px;
+}
+
+.target-card .target-card-template-2 {
+    background-color: rgba(0, 76, 232, 0.05);
+}
+
+.target-card .target-card-template-3 {
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+.target-card .target-icon {
+    height: 60px;
+    width: 60px;
+}
+
+.target-card .target-text {
+  font-size: 24px;
+  font-weight: 800;
+  text-align: left;  
+}
+
+.target-card .target-description {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    margin: 0;  
+  }
+  
+
+.target-card .btn4 {
+   color: rgb(13, 19, 33);
+   text-align: center; 
+   font-size: 14px;
+   font-weight: 800;
+   text-decoration: underline;
+   text-decoration-thickness: 2px;
+   text-underline-offset: 3px;
+}
+
+ 
