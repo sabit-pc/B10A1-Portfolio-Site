@@ -256,12 +256,14 @@ body {
 .target {
     width: 1140px;
     max-width: 1440px;
-    height: 463px;
+    height: 1500px;
     margin: 60px 150px;
     border: none;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 111px;
 }
 
 .target-container {
@@ -339,7 +341,7 @@ body {
   }
   
 
-.target-card .btn4 {
+.btn4 {
    color: rgb(13, 19, 33);
    text-align: center; 
    font-size: 14px;
@@ -349,4 +351,72 @@ body {
    text-underline-offset: 3px;
 }
 
- 
+.next-target-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+} 
+
+.next-target-container h3 {
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    color: rgb(13, 19, 33);
+    margin-bottom: 24px;
+}
+
+.next-target-container p {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(13, 19, 33);
+    margin-bottom: 48px;
+}
+
+.next-target-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    flex-direction: column;
+}
+
+.next-target-card-template {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(13, 19, 33, 0.7);
+    border-radius: 16px;
+    padding: 40px;
+    position: relative;
+}
+
+.next-target-card-template .next-target-box {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.next-target-card-template .next-target-icon {
+    width: 120px;
+    position: absolute;
+    left: 30px;
+}
+
+.next-target-box .next-target-text {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.next-target-box .next-target-description {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    text-align: start;
+}
